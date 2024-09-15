@@ -1,0 +1,57 @@
+# STM32CubeIDE specific files
+.cproject
+.project
+.settings/
+*.launch
+
+# Build output directories
+Debug/
+Release/
+
+# Object files and dependency files
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.axf
+
+# Libraries and static analysis outputs
+*.a
+*.bak
+
+# Auto-generated files (you usually want to keep source and header files)
+Middlewares/
+Drivers/CMSIS/Device/STM32F2xx/Source/Templates/
+Drivers/CMSIS/Device/STM32F2xx/Include/
+Drivers/STM32F2xx_HAL_Driver/Src/
+Drivers/STM32F2xx_HAL_Driver/Inc/
+
+# CubeMX-generated files (you want to keep the .c and .h files)
+*.svd
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*.swo
+*.swd
+*.patch
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+desktop.ini
+
+# IDE-specific files
+*.ide
+.idea/
+.vscode/
+
+# Temporary files
+*.bak
+*.tmp

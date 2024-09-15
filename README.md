@@ -19,36 +19,32 @@ Aim: achieve reasonable competency in C embedded coding and developing for stm32
         - link: https://www.sparkfun.com/products/21222
         - datasheet: https://cdn.sparkfun.com/assets/a/4/0/b/b/LPS28DFW-Datasheet.pdf
 
-## Project folders
+## Project Directory Structure
 
-sensors/               # STM32 CubeIDE project folders
-├── Core/              # STM32 CubeMX-generated code and startup files
-│   ├── Inc/           # Core header files (stm32f2xx_hal.h, main.h)
-│   └── Src/           # Core source files (main.c, stm32f2xx_hal.c)
-│
-├── Drivers/           # Sensor drivers for ICM-20948 and LPS28DFW and I2C/SPI abstraction
-│   ├── icm20948
-│   │   ├── Inc/       # Driver header files
-│   │   └── Src/       # Driver source files
-│   ├── lps28dfw
-│   │   ├── Inc/       # Driver header files
-│   │   └── Src/       # Driver source files
-│   ├── CMSIS
-│   │   ├── Inc/       # Driver header files
-│   │   └── Src/       # Driver source files
-│   ├── STM32F2xx_HAL_Drivers
-│   │   ├── Inc/       # Driver header files
-│   │   └── Src/       # Driver source files
-│
-├── Middleware/        # Algorithms and third-party libraries
-│   ├── Inc/           # Middleware header files (e.g., sensor fusion algorithms)
-│   └── Src/           # Middleware source files
-│
-├── Config/            # Configuration files (sensor settings, pin configurations)
-├── Lib/               # Reusable library files
-│   ├── Inc/           # Library header files (public API)
-│   └── Src/           # Library source files (implementation)
-│
-├── Tests/             # Unit tests, simulations, or test applications
-├── Readme.md          # Project documentation
-└── Makefile           # Build script
+- **sensors/**               # STM32 CubeIDE project folders
+  - **Core/**              # STM32 CubeMX-generated code and startup files
+    - **Inc/**           # Core header files (stm32f2xx_hal.h, main.h)
+    - **Src/**           # Core source files (main.c, stm32f2xx_hal.c)
+  - **Drivers/**           # Sensor drivers for ICM-20948 and LPS28DFW and I2C/SPI abstraction
+    - **icm20948/**
+      - **Inc/**       # Driver header files
+      - **Src/**       # Driver source files
+    - **lps28dfw/**
+      - **Inc/**       # Driver header files
+      - **Src/**       # Driver source files
+    - **CMSIS/**
+      - **Inc/**       # Driver header files
+      - **Src/**       # Driver source files
+    - **STM32F2xx_HAL_Drivers/**
+      - **Inc/**       # Driver header files
+      - **Src/**       # Driver source files
+  - **Middleware/**        # Algorithms and third-party libraries
+    - **Inc/**           # Middleware header files (e.g., sensor fusion algorithms)
+    - **Src/**           # Middleware source files
+  - **Config/**            # Configuration files (sensor settings, pin configurations)
+  - **Lib/**               # Reusable library files
+    - **Inc/**           # Library header files (public API)
+    - **Src/**           # Library source files (implementation)
+  - **Tests/**             # Unit tests, simulations, or test applications
+  - **Readme.md**          # Project documentation
+  - **Makefile**           # Build script

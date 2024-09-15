@@ -22,24 +22,23 @@ Aim: achieve reasonable competency in C embedded coding and developing for stm32
 ## Project folders
 
 sensors/               # STM32 CubeIDE project folders
-│
 ├── Core/              # STM32 CubeMX-generated code and startup files
 │   ├── Inc/           # Core header files (stm32f2xx_hal.h, main.h)
 │   └── Src/           # Core source files (main.c, stm32f2xx_hal.c)
 │
 ├── Drivers/           # Sensor drivers for ICM-20948 and LPS28DFW and I2C/SPI abstraction
 │   ├── icm20948
-│       ├── Inc/       # Driver header files
-│       └── Src/       # Driver source files
+│   │   ├── Inc/       # Driver header files
+│   │   └── Src/       # Driver source files
 │   ├── lps28dfw
-│       ├── Inc/       # Driver header files
-│       └── Src/       # Driver source files
+│   │   ├── Inc/       # Driver header files
+│   │   └── Src/       # Driver source files
 │   ├── CMSIS
-│       ├── Inc/       # Driver header files
-│       └── Src/       # Driver source files
+│   │   ├── Inc/       # Driver header files
+│   │   └── Src/       # Driver source files
 │   ├── STM32F2xx_HAL_Drivers
-│       ├── Inc/       # Driver header files
-│       └── Src/       # Driver source files
+│   │   ├── Inc/       # Driver header files
+│   │   └── Src/       # Driver source files
 │
 ├── Middleware/        # Algorithms and third-party libraries
 │   ├── Inc/           # Middleware header files (e.g., sensor fusion algorithms)

@@ -29,17 +29,17 @@ sensors/               # STM32 CubeIDE project folders
 │
 ├── Drivers/           # Sensor drivers for ICM-20948 and LPS28DFW and I2C/SPI abstraction
 │   ├── icm20948
-│       ├── Inc/           # Driver header files
-│       └── Src/           # Driver source files
+│       ├── Inc/       # Driver header files
+│       └── Src/       # Driver source files
 │   ├── lps28dfw
-│       ├── Inc/           # Driver header files
-│       └── Src/           # Driver source files
+│       ├── Inc/       # Driver header files
+│       └── Src/       # Driver source files
 │   ├── CMSIS
-│       ├── Inc/           # Driver header files
-│       └── Src/           # Driver source files
+│       ├── Inc/       # Driver header files
+│       └── Src/       # Driver source files
 │   ├── STM32F2xx_HAL_Drivers
-│       ├── Inc/           # Driver header files
-│       └── Src/           # Driver source files
+│       ├── Inc/       # Driver header files
+│       └── Src/       # Driver source files
 │
 ├── Middleware/        # Algorithms and third-party libraries
 │   ├── Inc/           # Middleware header files (e.g., sensor fusion algorithms)
